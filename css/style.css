@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Teko;
+}
+html,body{
+	height: 100%;
+}
+.form{
+	margin: 110px auto;
+	width: 50%;
+	max-width: 900px;
+	height: 80%;
+	border: 1px solid #ccc;
+	border-radius: 3%;
+	text-align: center;
+}
+.img-section img{
+	margin: 150px auto;
+	float: right;	
+	width: 50%;
+	height: 100%;
+}
+.text h1{
+	margin-top: 50px;
+	font-weight: normal;
+	font-size: 40px;
+	color: #ccc;
+	letter-spacing: 3px;
+	border-bottom: 2px solid #00B0FF;
+}
+.text h2{
+	margin-top: 25px;
+	font-weight: normal;
+	font-size: 30px;
+	color: #2F2E41;
+}
+
+form input[type=text]{
+	margin-top: 50px;
+	display: inline-block;
+	width: 40%;	
+	border-radius: 5%;
+	font-size: 20px;
+}
+form input[type=password]{
+	margin-top: 50px;
+	display: inline-block;
+	width: 40%;	
+	border-radius: 5%;
+	font-size: 20px;
+	color: #00B0FF;
+}
+form input[type=text]:focus{
+	padding: 2px;
+	outline: 0;
+	background-color: #ccc;
+}
+form input[type=password]:focus{
+	padding: 2px;
+	outline: 0;
+}
+form input[type=submit]{
+	margin-top: 40px;
+	display: inline-block;
+	width: 30%;	
+	font-size: 30px;
+	color: white;
+	background-color: #00B0FF;
+	border: 0;
+	border-bottom: 5px solid rgb(11, 80, 117);
+	box-shadow: 3px 3px 3px 1px black;
+}
+form input[type=submit]:hover{
+	outline: 0;
+	cursor: pointer;
+	background-color: rgb(16, 135, 199);
+}
+form input[type=submit]:active{
+	outline: 0;
+	background-color: #2F2E41;
+}
+.checkbox{
+	width: 100%;
+	margin-top: 40px;
+	text-align: center;
+	font-size: 19px;
+	color: #2F2E41;
+}
+
+@media screen and (max-width: 1024px), screen and (max-height: 850px){
+		.form{
+			margin: 0;
+			width: 100%;
+			height: 100%;
+			border: 0;		
+		}
+	}
+}
